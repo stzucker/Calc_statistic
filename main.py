@@ -1,5 +1,11 @@
 class SMO:
-  pass
+  def factorial(value):
+    result = 1
+    if value == 0: return result
+    for iter in range(1, value + 1):
+      result *= iter
+
+    return result
 
 class ManyChannel_SMO_unlimited_queue(SMO):
   pass
