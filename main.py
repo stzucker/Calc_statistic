@@ -1,4 +1,7 @@
 class SMO:
+    # переменные
+  g_u, t, g_a, n, m = 1, 1, 1, 1, 1
+  
   def factorial(value):
     result = 1
     if value == 0: return result
