@@ -27,5 +27,3 @@ class OneChannel_SMO_limited_queue(SMO):
 
 class OneChannel_SMO_with_denial(SMO):
   pass
-
-### Я сделал это гавно - останови меня
